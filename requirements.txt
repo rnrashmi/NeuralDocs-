@@ -9,3 +9,5 @@ pgvector
 psycopg2-binary
 dj-database-url
 faker
+pytest
+pytest-django

@@ -38,8 +38,8 @@ pip install -r requirements.txt
 ### **1. Clone the Repository**
 
 ```sh
-git clone https://github.com/your-repo.git
-cd your-project
+git clone https://github.com/rnrashmi/NeuralDocs-
+cd NeuralDocs-
 ```
 
 ### **2. Set Up Virtual Environment**
@@ -127,17 +127,6 @@ Response:
 }
 ```
 
-### **Retrieve Selected Documents**
-```sh
-curl -X GET http://127.0.0.1:8000/api/select/ \
-     -H "Authorization: Token your_generated_token"
-```
-Response:
-```json
-{
-    "selected_titles": ["Document Title 1", "Document Title 2"]
-}
-```
 
 ### **Clear Selected Documents**
 ```sh
