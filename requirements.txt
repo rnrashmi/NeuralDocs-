@@ -1,0 +1,11 @@
+Django==4.2.2
+djangorestframework
+transformers 
+langchain 
+torch
+numpy
+scikit-learn
+pgvector 
+psycopg2-binary
+dj-database-url
+faker
